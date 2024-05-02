@@ -15,11 +15,15 @@ Route::get('mahasiswa', function () {
 });
 
 Route::get('profile', function () {
-    $nama = 'Aryo';
-    return view('profile', compact('nama'));
+    $Kodeproduk = ['BRG001,BRG002'];
+    return view('profile', compact('Kodeproduk'));
 });
 
-Route::get('profile', function () {
-    $nama = 'Aryo';
-    return view('profile', compact('nama'));
+Route::get('array', function () {
+    // Infinite Loop
+    $nilai_awal = 1;
+    while ($nilai_awal <= 100) {
+        echo 'Hello Laravel ' . $nilai_awal . 'x<br>';
+        $nilai_awal++;
+    }
 });
