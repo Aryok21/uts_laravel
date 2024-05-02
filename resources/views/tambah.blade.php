@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>profile</title>
+  <title>Form Tambah Produk</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -35,47 +35,51 @@
       </div>
     </div>
   </nav>
-  <a href="/tambah">
-    <div class="container" style="margin-right: -1000px">
-      <button class="btn btn-primary">Tambah Produk</button>
-    </div>
-  </a>
-  
   <div class="container" style="margin-right: 20px">
-    <h1>Halaman Produk</h1> 
-  
-        <table class="table table-primary table-hover table-striped">
-          <thead>
-            <tr>
-              <th>Kode Produk</th>
-              <th>Nama Produk</th>
-              <th>Jenis Produk</th>
-              <th>Harga</th>
-            </tr>
-          </thead>
-          <tbody>
-            <?php $nilai_awal = 1; ?>
-            @while ($nilai_awal <= $jumlah)
-            
-            <tr>
-              <td>BRG001</td>
-              <td>Pena</td>
-              <td>Alat tulis</td>
-              <td>20000</td>
-            </tr>
-            <tr>
-              <td>BRG002</td>
-              <td>Buku</td>
-              <td>Alat tulis</td>
-              <td>15000</td>
-            </tr>
-            <?php $nilai_awal++ ?>
-            @endwhile
-          </tbody>
-        </table>
-    </div>
+    <h1>Form Tambah Produk</h1>
+    <form action="" method="GET">
+      <div class="row">
+        <div class="col-sm-6">
+          <label for="">Kode Produk</label>
+      <input type="" class="form-control" placeholder="Input Kode Produk">
+        </div>
+        <div class="col-sm-6">
+          <label for="">Nama Produk</label>
+      <input type="text" nama="" id="" class="form-control" placeholder="Input Nama Produk">
+        </div>
+      </div>
 
-    
+      <div class="row">
+        <div class="col-sm-6">
+          <label for="">Harga</label>
+      <input type="text" nama="" id="" class="form-control" placeholder="Input Harga">
+        </div>
+        <div class="col-sm-6">
+          <label for="Jenis Produk"></label>
+          <select name="" id="" class="form-control">
+            <option value="">Alat Tulis</option>
+            <option value="">Elektronik</option>
+            <option value="">Sembako</option>s
+          </select>
+        </div>
+      </div>
+      
+          
+
+        </div>
+      </div>
+
+      <div class="container" style="margin-right: 20px">
+        <div class="form-group mt-2">
+          <button class="btn btn-success">Simpan</button>
+        </div>
+      </div>
+      
+      
+    </form>
+  </div>
+
+ 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -14,6 +14,10 @@ Route::get('mahasiswa', function () {
     return view('mahasiswa');
 });
 
+Route::get('tambah', function () {
+    return view('tambah');
+});
+
 Route::get('profile', function () {
     $Kodeproduk = ['BRG001,BRG002'];
     $jumlah = count($Kodeproduk);
