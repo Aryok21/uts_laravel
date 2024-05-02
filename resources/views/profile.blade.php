@@ -49,12 +49,6 @@
         </tr>
       </thead>
       <tbody>
-        <?php $nilai_awal = 1; ?>
-        @while ()
-            
-        @endwhile
-            
-        @endwhile
         <tr>
           <td>BRG001</td>
           <td>Pena</td>
