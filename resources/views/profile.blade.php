@@ -49,6 +49,9 @@
         </tr>
       </thead>
       <tbody>
+        <?php $nilai_awal = 1; ?>
+        @while ($nilai_awal <= $jumlah)
+        
         <tr>
           <td>BRG001</td>
           <td>Pena</td>
@@ -61,6 +64,8 @@
           <td>Alat tulis</td>
           <td>15000</td>
         </tr>
+        <?php $nilai_awal++ ?>
+        @endwhile
       </tbody>
     </table>
 

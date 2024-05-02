@@ -16,11 +16,6 @@ Route::get('mahasiswa', function () {
 
 Route::get('profile', function () {
     $Kodeproduk = ['BRG001,BRG002'];
-    return view('profile', compact('Kodeproduk'));
-});
-
-Route::get('array', function () {
-    for ($i = 1; $i <= 5; $i++) {
-        echo 'hello world ' . $i . 'x<br>';
-    }
+    $jumlah = count($Kodeproduk);
+    return view('profile', compact('Kodeproduk', 'jumlah'));
 });
