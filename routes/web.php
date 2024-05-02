@@ -18,3 +18,8 @@ Route::get('profile', function () {
     $nama = 'Aryo';
     return view('profile', compact('nama'));
 });
+
+Route::get('profile', function () {
+    $nama = 'Aryo';
+    return view('profile', compact('nama'));
+});
