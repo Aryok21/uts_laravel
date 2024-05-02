@@ -38,6 +38,32 @@
   
   <div class="container" style="margin-right: 20px">
     <h1>Halaman Produk</h1>
+
+    <table class="table table-primary table-hover table-striped">
+      <thead>
+        <tr>
+          <th>Kode Produk</th>
+          <th>Nama Produk</th>
+          <th>Jenis Produk</th>
+          <th>Harga</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>BRG001</td>
+          <td>Pena</td>
+          <td>Alat tulis</td>
+          <td>20000</td>
+        </tr>
+        <tr>
+          <td>BRG002</td>
+          <td>Buku</td>
+          <td>Alat tulis</td>
+          <td>15000</td>
+        </tr>
+      </tbody>
+    </table>
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
